@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div id="table"style="background-color:red">
+        <form> 
+        <tr><H1 id="form">Registeration form  </H1>
+        <label>Name:</label> <input type="text" name="name" placeholder="type your name" required>
+        <br>
+        <label>Email:</label><input type="email" name="email" placeholder="email@xyz.com">
+        <br>
+        <label>Password:</label><input type="password" placeholder="password">
+        <br>
+        <label>DOB:</label><input type="date" placeholder="dob">
+        <br>
+        <label>Gender:</label><input type="radio" name=gender value=male>Male
+        <input type="radio" name=gender value=female>Female
+        <br>
+        <label>Place:</label><input type="checkbox" name=place value=Erode>erode
+        <input type="checkbox" name=place value=Chennai>chennai 
+        <input type="checkbox" name=place value=Salem>salem 
+        <br>
+        <br>
+        <br>
+        <label>Department:</label> <select>
+            <option name=department value=Ece >ece</option>
+                <option name=department value=Cse >cse</option>
+                    <option name=department value=EEE >eee</option>
+                        <option name=department value=Mech >mech</option> </select>
+                        <br>
+        <label>Comment:</label><input type="textarea">
+        <br>
+        <input type="Submit">
+    </form></div>
+</div>
+    
+</body>
+</html>
+
+<!--name is used to say that all the option are belonging to one input-->
+<!--value is used because value is sent to server after customer select ..only value are sent to server-->
