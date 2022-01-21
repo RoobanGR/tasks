@@ -1,0 +1,19 @@
+div{
+    
+    background-image: url(./responsive/tree-736885__480.jpg );
+    opacity: 0.8;  
+}
+.container{
+    margin:5px;
+    font-style: italic;
+    font-size: medium;
+    display: flex;
+    border: 5px;
+    color: rgb(245, 240, 240);
+    font-weight: bold;
+    
+}
+#form{
+    text-align: center;
+    
+}
